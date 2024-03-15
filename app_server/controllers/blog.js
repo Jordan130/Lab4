@@ -18,8 +18,8 @@ exports.renderBlogEditPage = async (req, res) => {
   }
 };
 
-/* Update Blog Entry */
-module.exports.editBlog = async function(req, res) {
+// Update Blog Entry 
+exports.editBlog = async function(req, res) {
   try {
     const blogId = req.params.id;
 
